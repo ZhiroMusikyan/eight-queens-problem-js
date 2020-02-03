@@ -1,0 +1,67 @@
+/*h1 {*/
+/*    color: red;*/
+/*    !*display: flex;*!*/
+/*    text-align: center;*/
+/*    !*vertical-align: middle;*!*/
+/*    !*display: table-cell;*!*/
+/*    border-radius: 2px;*/
+/*}*/
+/*#firstdiv {*/
+/*    !*position: relative;*!*/
+/*    height: 150px;*/
+/*    width: 430px;*/
+/*    border: black 2px solid;*/
+/*}*/
+
+tr{
+    width: 20px;
+}
+.main {
+    /*position: absolute;*/
+    margin: 9px;
+    height: auto;
+    width: auto;
+    float: left;
+    display: flex;
+    /*justify-content: center;*/
+    text-align: center;
+    /*align-items: center;*/
+    border: 1px solid #006E6E;
+    /*padding: 4px;*/
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: black solid 0.1px;
+    /*text-indent: -9999px;*/
+
+}
+
+.info {
+    border-radius: 6px;
+    background-color: lightslategray;
+    height: 400px;
+    width: 250px;
+    float: left;
+    border: black solid 1px ;
+}
+
+.queen {
+    /*border: black solid 0.1px;*/
+    background: url("./image/queen.png");
+    background-size: contain;
+    /*text-indent: -9999px;*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
+}
+
+
